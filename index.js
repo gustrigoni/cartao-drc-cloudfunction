@@ -3,6 +3,8 @@ const functions = require('@google-cloud/functions-framework');
 functions.cloudEvent('verificaSituacaoPedido', cloudEvent => {
   const base64name = cloudEvent.data.message.data;
 
+  //teste
+
   const {
     cpfTitular,
     idPedido,
