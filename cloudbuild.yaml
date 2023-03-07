@@ -20,3 +20,5 @@ steps:
     - 'managed'
 images:
  - 'gcr.io/$PROJECT_ID/$_CLOUD_RUN_PROJECT-$BRANCH_NAME:$COMMIT_SHA'
+options:
+ - logging: 'NONE'
